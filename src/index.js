@@ -1,7 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import Navbar from "./Components/navbar"
+import ReactDOM from "react-dom"
+import Login from "./Components/UserLogin/Login"
 
 
-ReactDOM.render(<Navbar />, document.getElementById("root"));
+ReactDOM.render(<Login />, document.getElementById("root"));
 
